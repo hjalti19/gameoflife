@@ -1,0 +1,11 @@
+/Users/gudjon/Hjalti/gameoflife/GameOfLife/GameOfLife/bin/Debug/netcoreapp2.2/GameOfLife.deps.json
+/Users/gudjon/Hjalti/gameoflife/GameOfLife/GameOfLife/bin/Debug/netcoreapp2.2/GameOfLife.runtimeconfig.json
+/Users/gudjon/Hjalti/gameoflife/GameOfLife/GameOfLife/bin/Debug/netcoreapp2.2/GameOfLife.runtimeconfig.dev.json
+/Users/gudjon/Hjalti/gameoflife/GameOfLife/GameOfLife/bin/Debug/netcoreapp2.2/GameOfLife.dll
+/Users/gudjon/Hjalti/gameoflife/GameOfLife/GameOfLife/bin/Debug/netcoreapp2.2/GameOfLife.pdb
+/Users/gudjon/Hjalti/gameoflife/GameOfLife/GameOfLife/obj/Debug/netcoreapp2.2/GameOfLife.csprojAssemblyReference.cache
+/Users/gudjon/Hjalti/gameoflife/GameOfLife/GameOfLife/obj/Debug/netcoreapp2.2/GameOfLife.csproj.CoreCompileInputs.cache
+/Users/gudjon/Hjalti/gameoflife/GameOfLife/GameOfLife/obj/Debug/netcoreapp2.2/GameOfLife.AssemblyInfoInputs.cache
+/Users/gudjon/Hjalti/gameoflife/GameOfLife/GameOfLife/obj/Debug/netcoreapp2.2/GameOfLife.AssemblyInfo.cs
+/Users/gudjon/Hjalti/gameoflife/GameOfLife/GameOfLife/obj/Debug/netcoreapp2.2/GameOfLife.dll
+/Users/gudjon/Hjalti/gameoflife/GameOfLife/GameOfLife/obj/Debug/netcoreapp2.2/GameOfLife.pdb
