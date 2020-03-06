@@ -11,7 +11,12 @@ namespace GameOfLife
 
         public static bool IsAliveInNextRound(bool alive, int neighbours)
         {
-            return true;
+            if (neighbours == 3)
+            {
+                return true;
+            }
+
+            return false;
         }
     }
 }

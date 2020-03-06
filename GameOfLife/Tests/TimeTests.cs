@@ -8,9 +8,17 @@ namespace Tests
         [Fact]
         public void DeadCellWithThreeNeighboursComesAlive()
         {
-            var alive = Time.IsAliveInNextRound(false, 3);
+            bool alive = Time.IsAliveInNextRound(false, 3);
 
             Assert.True(alive);
-        }        
+        }
+
+        [Fact]
+        public void DeadCellWithFewerThanThreeNeighboursStaysDead()
+        {
+            bool alive = Time.IsAliveInNextRound(false, 2);
+            
+            Assert.False(alive);
+        }
     }
 }
