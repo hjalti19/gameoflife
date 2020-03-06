@@ -16,7 +16,7 @@ namespace GameOfLife
                 return true;
             }
 
-            return false;
+            return alive && neighbours == 2;
         }
     }
 }
