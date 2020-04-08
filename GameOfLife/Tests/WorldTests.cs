@@ -4,7 +4,7 @@ using Xunit;
 
 namespace Tests
 {
-    public class TimeTests
+    public class WorldTests
     {
         [Fact]
         public void DeadCellWithThreeNeighboursComesAlive()

@@ -2,21 +2,17 @@ namespace GameOfLife
 {
     public class Time
     {
-        private readonly World world;
+        private readonly World _world;
 
         public Time(World world)
         {
-            this.world = world;
+            this._world = world;
         }
 
-        public static bool IsAliveInNextRound(bool alive, int neighbours)
+        public void Tick()
         {
-            if (neighbours == 3)
-            {
-                return true;
-            }
-
-            return alive && neighbours == 2;
+            _world.CalculateNextRound();
+            _world.MoveToNextRound();
         }
     }
 }
