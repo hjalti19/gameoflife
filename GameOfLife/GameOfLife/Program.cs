@@ -64,7 +64,6 @@ namespace GameOfLife
 
         private static void DisplayPlain(Cell[,] plain)
         {
-
             Console.WriteLine();
             Console.WriteLine("Current plain state");
 

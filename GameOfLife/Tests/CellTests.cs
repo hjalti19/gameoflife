@@ -1,4 +1,3 @@
-using System.Security.Cryptography;
 using GameOfLife;
 using Xunit;
 

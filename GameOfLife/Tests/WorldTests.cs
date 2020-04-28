@@ -1,4 +1,3 @@
-using System.Runtime.CompilerServices;
 using GameOfLife;
 using Xunit;
 
@@ -9,7 +8,7 @@ namespace Tests
         [Fact]
         public void DeadCellWithThreeNeighboursComesAlive()
         {
-            bool alive = Time.IsAliveInNextRound(false, 3);
+            bool alive = World.IsAliveInNextRound(false, 3);
 
             Assert.True(alive);
         }
@@ -17,7 +16,7 @@ namespace Tests
         [Fact]
         public void DeadCellWithFewerThanThreeNeighboursStaysDead()
         {
-            bool alive = Time.IsAliveInNextRound(false, 2);
+            bool alive = World.IsAliveInNextRound(false, 2);
             
             Assert.False(alive);
         }
@@ -25,7 +24,7 @@ namespace Tests
         [Fact]
         public void DeadCellWithMoreThanThreeNeighboursStaysDead()
         {
-            bool alive = Time.IsAliveInNextRound(false, 4);
+            bool alive = World.IsAliveInNextRound(false, 4);
 
             Assert.False(alive);
         }
@@ -33,7 +32,7 @@ namespace Tests
         [Fact]
         public void AliveCellWithThreeNeighboursStaysAlive()
         {
-            bool alive = Time.IsAliveInNextRound(true, 3);
+            bool alive = World.IsAliveInNextRound(true, 3);
 
             Assert.True(alive);
         }
@@ -41,7 +40,7 @@ namespace Tests
         [Fact]
         public void AliveCellWithTwoNeighboursStaysAlive()
         {
-            bool alive = Time.IsAliveInNextRound(true, 2);
+            bool alive = World.IsAliveInNextRound(true, 2);
 
             Assert.True(alive);
         }
@@ -49,7 +48,7 @@ namespace Tests
         [Fact]
         public void AliveCellWithFewerThanTwoNeighboursDies()
         {
-            bool alive = Time.IsAliveInNextRound(true, 1);
+            bool alive = World.IsAliveInNextRound(true, 1);
 
             Assert.False(alive);
         }
@@ -57,7 +56,7 @@ namespace Tests
         [Fact]
         public void AliveCellWithMoreThanThreeNeighboursDies()
         {
-            bool alive = Time.IsAliveInNextRound(true, 4);
+            bool alive = World.IsAliveInNextRound(true, 4);
 
             Assert.False(alive);
         }
